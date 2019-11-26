@@ -23,5 +23,3 @@ jobs:
         npm run build --if-present
         npm run test
         npm run lint
-      env:
-        CI: true
