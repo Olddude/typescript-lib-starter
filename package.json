@@ -1,0 +1,22 @@
+{
+  "name": "typescript-lib-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "npm run prebuild && tsc --build tsconfig.json",
+    "test": "jest",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "ts-node": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  }
+}
